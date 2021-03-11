@@ -1,0 +1,464 @@
+body{
+    font-family: 'Raleway' !important;
+}
+#mere #DivParentsAfterBody{
+    padding: 0%;
+    margin: 0%;
+}
+#parentsAcceuille1{
+    height: 100%;
+    width: 100%;
+}
+#FirstAccueil{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: radial-gradient(50% 50% at 50% 50%, 
+    #FFFFFF 0%, #E5E5E5 26.52%, #9D9D9D 100%);
+    }
+#FirstRond{
+    position: absolute;
+    width: 303px;
+    height: 303px;
+    left: 501px;
+    top: 267px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(36, 0, 255, 0.78) 0%,
+     rgba(173, 0, 255, 0.55) 100%);
+     animation: CercleAgmenteCirconference 1s linear 
+     2s ;
+}
+/* css first position */
+@keyframes CercleAgmenteCirconference {
+    0% {
+        position: absolute;
+    width: 203px;
+    height: 203px;
+    left: 601px;
+    top: 267px;
+    border-radius: 50%;
+    }
+    50% {
+        position: absolute;
+        width: 400px;
+        height: 400px;
+        left: 451px;
+        top: 143px;
+        border-radius: 50%;
+        }
+
+    100% {
+    position: absolute;
+    width: 389px;
+    height: 389px;
+    left: 461px;
+    top: 143px;
+    border-radius: 50%;
+    }
+}
+#LettreAgirEnsemble #LettreEnsemble{
+    position: absolute;
+    left: 9%;
+    right: 200.44%;
+    top: 51.92%;
+    bottom: 28.01%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 113px;
+    animation: LettreEnsemble 1s linear 2s ;
+}
+#LettreAgirEnsemble #AgirEstDiff{
+    position: absolute;
+    left: 10.53%;
+    right: 200.44%;
+    top: 40.92%;
+    bottom: 37.01%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 113px;
+    animation: LettreAgir 1s linear 2s ;
+}
+@keyframes LettreAgir {
+    0%{
+        position: absolute;
+        left: 0%;
+        right: 154.44%;
+        top: 40.92%;
+        bottom: 37.01%;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 96px;
+        line-height: 113px; 
+    }
+75%{
+    position: absolute;
+    color :#A457F9;
+    left: 8.48%;
+    right: 54.44%;
+    top: 40.92%;
+    bottom: 37.01%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 113px;
+}
+100%{
+    position: absolute;
+    width: 446px;
+    height: 226px;
+    left: 101px;
+    top: 419px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 113px;
+    display: block;
+}
+}
+@keyframes LettreEnsemble {
+    0%{
+        position: absolute;
+        left: 0%;
+        right: 154.44%;
+        top: 49.92%;
+        bottom: 28.01%;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 96px;
+        line-height: 113px; 
+    }
+75%{
+    position: absolute;
+    left: 8.48%;
+    right: 54.44%;
+    top: 49.92%;
+    bottom: 28.01%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 113px;
+}
+100%{
+    position: absolute;
+    left: 101px;
+    right: 54.44%;
+    top: 49.92%;
+    bottom: 28.01%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 113px;
+}
+}
+#PourMieuxRever{
+position: absolute;
+left: 60.64%;
+right: 0.36%;
+top: 52.64%;
+bottom: 26.76%;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 96px;
+line-height: 113px;
+animation: lettrePourMieuxReve 1s linear 2s ;
+}
+.Rever{
+    color: #A457F9;
+}
+@keyframes lettrePourMieuxReve {
+    0%{
+        position: absolute;
+        left: 45.64%;
+        right: 3.44%;
+        top: 49.92%;
+        bottom: 28.01%;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 96px;
+        line-height: 113px; 
+        color: #A457F9;
+    }
+75%{
+    position: absolute;
+    left: 37.64%;
+    right: 7.44%;
+    top: 49.92%;
+    bottom: 28.01%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 113px;
+    color: #A457F9;
+}
+100%{
+    position: absolute;
+    left: 45.64%;
+    right: 3.36%;
+    top: 49.92%;
+    bottom: 28.01%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 113px;
+    color: #A457F9;
+}
+}
+#LeButtonSubmit{
+    position:fixed ;
+    left: 86.6%;
+    right: 5.21%;
+    top: 6.52%;
+    bottom: 89.53%;
+    padding-left: 20px;
+
+    background: linear-gradient(90deg, 
+    rgba(173, 0, 255, 0.55) 0%, 
+    rgba(36, 0, 255, 0.55) 64.58%);
+    border-radius: 10px;
+    height: 35px;
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+#kLogs{
+    position:fixed;
+    left: 6.6%;
+    right: 88.19%;
+    top: 4.84%;
+    bottom: 87.75%;
+}
+#aLogs{
+    position:fixed;
+    left: 12.5%;
+    right: 82.29%;
+    top: 4.84%;
+    bottom: 87.75%;
+}
+#fleche1{
+    position: absolute;
+    left: 85.76%;
+    right: 5.21%;
+    top: 77.08%;
+    bottom: 17.49%;
+}
+#fleche2{
+    position: absolute;
+    left: 85.83%;
+    right: 5.21%;
+    top: 80.83%;
+    bottom: 13.74%;
+}
+#fashion{
+    position: absolute;
+    width: 813px;
+    height: 826px;
+    left: 305px;
+    top: 267px;
+    animation: ImageEnMVT 1s linear 2s ;
+}
+@keyframes ImageEnMVT{
+    0%{
+        width: 813px;
+        height: 826px;
+        left: 305px;
+        top: 0px;
+        
+    }
+    100%{
+        width: 813px;
+        height: 826px;
+        left: 305px;
+        top: 267px;
+        
+    }
+}
+#AccFinal{
+
+    display: none;
+    margin-top: 1124px;
+    width: 1440px;
+    height: 1012px;
+    background: radial-gradient(50% 50% at 50% 50%, 
+    #FFFFFF 0%, #E5E5E5 26.52%, #9D9D9D 100%);
+}
+#DerRonde{
+    position: absolute;
+    width: 136px;
+    height: 136px;
+    left: 376px;
+    top: 1279px;
+    border-radius: 100%;
+    background: linear-gradient(180deg, 
+    rgba(36, 0, 255, 0.78) 0%,
+    rgba(173, 0, 255, 0.55) 100%);
+    animation: MvtDerRonde 1s linear 0s 
+}
+@keyframes MvtDerRonde{
+    
+    0%{
+        position: absolute;
+        width: 136px;
+        height: 136px;
+        left: 676px;
+        top: 1200px;
+        
+    }
+    100%{
+        position: absolute;
+        width: 136px;
+        height: 136px;
+        left: 376px;
+        top: 1279px;
+            
+    }
+}
+#TextLong{
+    position: absolute;
+    width: 492px;
+    height: 114px;
+    left: 571px;
+    top: 1301px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: justify;
+
+    color: #000000;
+}
+#QuiSommesNous{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 45px;
+
+    color: #FFFFFF;
+}
+#DivQuiSommesNous{
+    position: absolute;
+    width: 295px;
+    height: 106px;
+    left: 135px;
+    top: 1566px;
+    padding-top: 28px;
+    z-index:1;
+    background: linear-gradient(103.95deg, #AD00FF 13.02%, #2400FF 100%);
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+}
+#AnbQuiSomme{
+    position: absolute;
+    
+    width: 153px;
+    height: 137px;
+    left: 335px;
+    top: 1490px;
+}
+#DivNosTalents{
+    position: absolute;
+    width: 295px;
+    height: 106px;
+    left: 576px;
+    top: 1619px;
+    z-index:1;
+    padding-top: 30px;
+    background: linear-gradient(103.95deg, #AD00FF 13.02%, #2400FF 100%);
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+
+    
+}
+#NosTalents{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    padding-left: 85px;
+    color: #FFFFFF;
+}
+#AnbNosTale{
+    position: absolute;
+    width: 152px;
+    height: 137px;
+    left: 777px;
+    top: 1543px;
+}
+#DivActivite{
+    position: absolute;
+    width: 295px;
+    height: 106px;
+    left: 1010px;
+    top: 1672px;
+    z-index:1;
+    padding-top: 30px;
+    background: linear-gradient(103.95deg, #AD00FF 13.02%, #2400FF 100%);
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+}
+#Activite{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    padding-left: 95px;
+    color: #FFFFFF;
+}
+#AnbActiv{
+    position: absolute;
+    width: 153px;
+    height: 138px;
+    left: 1210px;
+    top: 1595px;
+}
+#Montrer4MAccueil{
+    position: absolute;
+    z-index: 1;
+    padding-right: 15px;
+    padding-left: 20px;
+    margin-left: 45%;
+    margin-top: 580px;
+    background-color : rgba(12, 12, 12, 0.5);
+    color: azure;
+    width: 95px;
+    height: 35px;
+    border-radius:13px ;
+    visibility: hidden;
+    text-decoration: none;
+    line-height: 35px;
+}
