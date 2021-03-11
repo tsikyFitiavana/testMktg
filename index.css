@@ -11,7 +11,7 @@ body{
 }
 #FirstAccueil{
     position: relative;
-    width: 1440px;
+    width: 100%;
     height: 1024px;
     position: absolute;
     left: 0%;
@@ -32,22 +32,22 @@ body{
     background: linear-gradient(180deg, rgba(36, 0, 255, 0.78) 0%,
      rgba(173, 0, 255, 0.55) 100%);
      animation: CercleAgmenteCirconference 1s linear 
-     2s ;
+     0s ;
 }
 /* css first position */
 @keyframes CercleAgmenteCirconference {
     0% {
         position: absolute;
-    width: 203px;
-    height: 203px;
-    left: 601px;
-    top: 267px;
-    border-radius: 50%;
+        width: 180px;
+        height: 180px;
+        left: 601px;
+        top: 267px;
+        border-radius: 50%;
     }
     50% {
         position: absolute;
-        width: 400px;
-        height: 400px;
+        width: 389px;
+        height: 389px;
         left: 451px;
         top: 143px;
         border-radius: 50%;
@@ -55,16 +55,16 @@ body{
 
     100% {
     position: absolute;
-    width: 389px;
-    height: 389px;
-    left: 461px;
-    top: 143px;
+    width: 303px;
+    height: 303px;
+    left: 501px;
+    top: 267px;
     border-radius: 50%;
     }
 }
 #LettreAgirEnsemble #LettreEnsemble{
     position: absolute;
-    left: 9%;
+    left: 2%;
     right: 200.44%;
     top: 51.92%;
     bottom: 28.01%;
@@ -73,11 +73,11 @@ body{
     font-weight: normal;
     font-size: 96px;
     line-height: 113px;
-    animation: LettreEnsemble 1s linear 2s ;
+    animation: LettreEnsemble 1s linear 0s ;
 }
 #LettreAgirEnsemble #AgirEstDiff{
     position: absolute;
-    left: 10.53%;
+    left: 2%;
     right: 200.44%;
     top: 40.92%;
     bottom: 37.01%;
@@ -86,12 +86,12 @@ body{
     font-weight: normal;
     font-size: 96px;
     line-height: 113px;
-    animation: LettreAgir 1s linear 2s ;
+    animation: LettreAgir 1s linear 0s ;
 }
 @keyframes LettreAgir {
     0%{
         position: absolute;
-        left: 0%;
+        left: -10%;
         right: 154.44%;
         top: 40.92%;
         bottom: 37.01%;
@@ -118,7 +118,8 @@ body{
     position: absolute;
     width: 446px;
     height: 226px;
-    left: 101px;
+    left: 2%;
+    right: 200.44%;
     top: 419px;
     font-family: Raleway;
     font-style: normal;
@@ -131,7 +132,7 @@ body{
 @keyframes LettreEnsemble {
     0%{
         position: absolute;
-        left: 0%;
+        left: -10%;
         right: 154.44%;
         top: 49.92%;
         bottom: 28.01%;
@@ -155,8 +156,8 @@ body{
 }
 100%{
     position: absolute;
-    left: 101px;
-    right: 54.44%;
+    left: 2%;
+    right: 200.44%;
     top: 49.92%;
     bottom: 28.01%;
     font-family: Raleway;
@@ -168,7 +169,7 @@ body{
 }
 #PourMieuxRever{
 position: absolute;
-left: 60.64%;
+left: 63.64%;
 right: 0.36%;
 top: 52.64%;
 bottom: 26.76%;
@@ -176,9 +177,9 @@ bottom: 26.76%;
 font-family: Raleway;
 font-style: normal;
 font-weight: normal;
-font-size: 96px;
+font-size: 90px;
 line-height: 113px;
-animation: lettrePourMieuxReve 1s linear 2s ;
+animation: lettrePourMieuxReve 1s linear 0s ;
 }
 .Rever{
     color: #A457F9;
@@ -188,8 +189,8 @@ animation: lettrePourMieuxReve 1s linear 2s ;
         position: absolute;
         left: 45.64%;
         right: 3.44%;
-        top: 49.92%;
-        bottom: 28.01%;
+        top: 52.64%;
+        bottom: 26.76%;
         font-family: Raleway;
         font-style: normal;
         font-weight: normal;
@@ -199,10 +200,10 @@ animation: lettrePourMieuxReve 1s linear 2s ;
     }
 75%{
     position: absolute;
-    left: 37.64%;
+    left: 39.64%;
     right: 7.44%;
-    top: 49.92%;
-    bottom: 28.01%;
+    top: 52.64%;
+    bottom: 26.76%;
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
@@ -212,10 +213,10 @@ animation: lettrePourMieuxReve 1s linear 2s ;
 }
 100%{
     position: absolute;
-    left: 45.64%;
-    right: 3.36%;
-    top: 49.92%;
-    bottom: 28.01%;
+    left: 63.64%;
+    right: 0.36%;
+    top: 52.64%;
+    bottom: 26.76%;
     font-family: Raleway;
     font-style: normal;
     font-weight: normal;
@@ -226,11 +227,11 @@ animation: lettrePourMieuxReve 1s linear 2s ;
 }
 #LeButtonSubmit{
     position:fixed ;
-    left: 86.6%;
-    right: 5.21%;
+    left: 88.6%;
+    right: 1.79%;
     top: 6.52%;
     bottom: 89.53%;
-    padding-left: 20px;
+    padding-left: 15px;
 
     background: linear-gradient(90deg, 
     rgba(173, 0, 255, 0.55) 0%, 
@@ -251,29 +252,29 @@ animation: lettrePourMieuxReve 1s linear 2s ;
 }
 #kLogs{
     position:fixed;
-    left: 6.6%;
-    right: 88.19%;
+    left: 2%;
+    right: 92.25%;
     top: 4.84%;
     bottom: 87.75%;
 }
 #aLogs{
     position:fixed;
-    left: 12.5%;
-    right: 82.29%;
+    left: 8.01%;
+    right: 82.35%;
     top: 4.84%;
     bottom: 87.75%;
 }
 #fleche1{
     position: absolute;
-    left: 85.76%;
-    right: 5.21%;
+    left: 88.6%;
+    right: 1.21%;
     top: 77.08%;
     bottom: 17.49%;
 }
 #fleche2{
     position: absolute;
-    left: 85.83%;
-    right: 5.21%;
+    left: 88.6%;
+    right: 1.21%;
     top: 80.83%;
     bottom: 13.74%;
 }
@@ -281,22 +282,22 @@ animation: lettrePourMieuxReve 1s linear 2s ;
     position: absolute;
     width: 813px;
     height: 826px;
-    left: 305px;
+    left: 256px;
     top: 267px;
-    animation: ImageEnMVT 1s linear 2s ;
+    animation: ImageEnMVT 1s linear 0s ;
 }
 @keyframes ImageEnMVT{
     0%{
         width: 813px;
         height: 826px;
-        left: 305px;
+        left: 256px;
         top: 0px;
         
     }
     100%{
         width: 813px;
         height: 826px;
-        left: 305px;
+        left: 256px;
         top: 267px;
         
     }
@@ -305,7 +306,7 @@ animation: lettrePourMieuxReve 1s linear 2s ;
 
     display: none;
     margin-top: 1124px;
-    width: 1440px;
+    width: 100%;
     height: 1012px;
     background: radial-gradient(50% 50% at 50% 50%, 
     #FFFFFF 0%, #E5E5E5 26.52%, #9D9D9D 100%);
@@ -323,8 +324,15 @@ animation: lettrePourMieuxReve 1s linear 2s ;
     animation: MvtDerRonde 1s linear 0s 
 }
 @keyframes MvtDerRonde{
-    
     0%{
+        position: absolute;
+        width: 303px;
+        height: 303px;
+        left: 501px;
+        top: 267px;
+    }
+    
+    25%{
         position: absolute;
         width: 136px;
         height: 136px;
@@ -370,7 +378,7 @@ animation: lettrePourMieuxReve 1s linear 2s ;
     position: absolute;
     width: 295px;
     height: 106px;
-    left: 135px;
+    left: 2%;
     top: 1566px;
     padding-top: 28px;
     z-index:1;
@@ -383,14 +391,14 @@ animation: lettrePourMieuxReve 1s linear 2s ;
     
     width: 153px;
     height: 137px;
-    left: 335px;
+    left: 230px;
     top: 1490px;
 }
 #DivNosTalents{
     position: absolute;
     width: 295px;
     height: 106px;
-    left: 576px;
+    left: 501px;
     top: 1619px;
     z-index:1;
     padding-top: 30px;
@@ -414,14 +422,14 @@ animation: lettrePourMieuxReve 1s linear 2s ;
     position: absolute;
     width: 152px;
     height: 137px;
-    left: 777px;
+    left: 702px;
     top: 1543px;
 }
 #DivActivite{
     position: absolute;
     width: 295px;
     height: 106px;
-    left: 1010px;
+    left: 975px;
     top: 1672px;
     z-index:1;
     padding-top: 30px;
@@ -443,22 +451,44 @@ animation: lettrePourMieuxReve 1s linear 2s ;
     position: absolute;
     width: 153px;
     height: 138px;
-    left: 1210px;
+    left: 1175px;
     top: 1595px;
 }
+#divFixed{
+    position: fixed;
+    width: 100%;
+    height: 65px;
+    top: 90%;
+    z-index: 2;
+}
+#divFixed span{
+    color:rgb(255, 255, 255);
+}
+
 #Montrer4MAccueil{
     position: absolute;
-    z-index: 1;
     padding-right: 15px;
-    padding-left: 20px;
+    padding-left: 10px;
     margin-left: 45%;
-    margin-top: 580px;
     background-color : rgba(12, 12, 12, 0.5);
     color: azure;
-    width: 95px;
-    height: 35px;
-    border-radius:13px ;
+    width: 45px;
+    height:35px;
+    border-radius:0 13px 13px 0 ;
     visibility: hidden;
     text-decoration: none;
+    line-height: 35px;
+}
+#Montrer3MAccueil{
+    visibility: hidden;
+    text-decoration: none;
+    margin-left: 42%;
+    background-color : rgba(12, 12, 12, 0.5);
+    position: absolute;
+    padding-left: 20px; 
+    color: azure;
+    border-radius:13px 0 0 13px;
+    width: 45px;
+    height:35px;
     line-height: 35px;
 }

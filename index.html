@@ -19,7 +19,7 @@
   crossorigin="anonymous"></script>
 </head>
 
-<body id="mere" onmouseover="MontrerLienAcc4()" onmouseout="RetourALaNormale()">
+<body id="mere">
     
     <div id="DivParentsAfterBody">
         <!-- debut de my first accueil -->
@@ -46,9 +46,10 @@
             <div>
                 <img src="images/fashion.png" alt="fleche1" id="fashion">    
             </div >
-            <div id="divFixed">
-                <a href="#AccFinal" onclick="FunctionMontrer4MAccueil()"  id="Montrer4MAccueil"> <i class='fa fa-angle-left' style='font-size:20px'></i>  3/4
-                    <i class="fa fa-angle-right" style="font-size:20px"></i></a>
+            <div id="divFixed" onmouseover="MontrerLienAcc4()" onmouseout="RetourALaNormale()">
+                <a href="#LettreAgirEnsemble" id="Montrer3MAccueil"> <i class='fa fa-angle-left' style='font-size:20px'></i> </i>3 </a><span>|</span> 
+                <a href="#AccFinal" onclick="FunctionMontrer4MAccueil()"  id="Montrer4MAccueil">  4
+                    <i class="fa fa-angle-right" style="font-size:20px"> </i></a>
             </div>
             
             
@@ -81,11 +82,16 @@
            montrer.style.display="block";
         }
         function MontrerLienAcc4(){
+            var ChecAcc0 = document.getElementById('Montrer3MAccueil')
             var ChecAcc = document.getElementById('Montrer4MAccueil')
+            ChecAcc0.style.visibility="visible"
             ChecAcc.style.visibility="visible"
+            
         }
         function RetourALaNormale(){
+            var ret0 = document.getElementById('Montrer3MAccueil')
             var ret = document.getElementById('Montrer4MAccueil')
+            ret0.style.visibility="hidden"
             ret.style.visibility="hidden"
         }
         
