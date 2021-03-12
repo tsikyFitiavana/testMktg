@@ -34,6 +34,34 @@ body{
      animation: CercleAgmenteCirconference 1s linear 
      0s ;
 }
+#fixedNosContact{
+    position: fixed;
+    left: 32.12%;
+    right: 1.03%;
+    top: 245px;
+    bottom: 80.68%;
+    background-color: azure;
+    z-index: 2;
+}
+#NousContacter{
+position: absolute;
+left: 74.12%;
+right: -21.03%;
+top: 28.01%;
+bottom: 80.68%;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #000000;
+
+transform: rotate(90deg);
+}
 /* css first position */
 @keyframes CercleAgmenteCirconference {
     0% {
