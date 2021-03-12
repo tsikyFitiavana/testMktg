@@ -78,8 +78,12 @@
     <script>
         function FunctionMontrer4MAccueil(){
            var montrer =  document.getElementById('AccFinal')
-           console.log('montrer',montrer);
            montrer.style.display="block";
+           var enlever = document.getElementById('FirstRond')
+           enlever.style.display='none'
+           setTimeout(() => {
+            enlever.style.display='block'
+           }, 1000);
         }
         function MontrerLienAcc4(){
             var ChecAcc0 = document.getElementById('Montrer3MAccueil')
